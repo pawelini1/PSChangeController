@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC4D03A1855299600763528 /* NSObject+PSChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC4D0391855299600763528 /* NSObject+PSChangeController.m */; };
+		EDC81A0D1857CE4100F850F3 /* PSSampleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC81A0C1857CE4100F850F3 /* PSSampleClass.m */; };
+		EDCCC88D185540AE00CB3285 /* NSNotificationCenter+PSChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCCC88C185540AE00CB3285 /* NSNotificationCenter+PSChangeController.m */; };
+		EDE3FA6E18512FB7003BF42D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE3FA6D18512FB7003BF42D /* UIKit.framework */; };
+		EDE3FA7018512FB7003BF42D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE3FA6F18512FB7003BF42D /* Foundation.framework */; };
+		EDE3FA7218512FB7003BF42D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE3FA7118512FB7003BF42D /* CoreGraphics.framework */; };
+		EDE3FA7818512FB7003BF42D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDE3FA7618512FB7003BF42D /* InfoPlist.strings */; };
+		EDE3FA7A18512FB7003BF42D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3FA7918512FB7003BF42D /* main.m */; };
+		EDE3FA7E18512FB7003BF42D /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3FA7D18512FB7003BF42D /* PSAppDelegate.m */; };
+		EDE3FA8018512FB7003BF42D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE3FA7F18512FB7003BF42D /* Default.png */; };
+		EDE3FA8218512FB7003BF42D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE3FA8118512FB7003BF42D /* Default@2x.png */; };
+		EDE3FA8418512FB7003BF42D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE3FA8318512FB7003BF42D /* Default-568h@2x.png */; };
+		EDE3FA8718512FB7003BF42D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE3FA8518512FB7003BF42D /* MainStoryboard.storyboard */; };
+		EDE3FA8A18512FB7003BF42D /* PSChangeControllerExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3FA8918512FB7003BF42D /* PSChangeControllerExampleViewController.m */; };
+		EDE3FA931851301E003BF42D /* PSChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3FA921851301E003BF42D /* PSChangeController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDC4D0381855299600763528 /* NSObject+PSChangeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PSChangeController.h"; sourceTree = "<group>"; };
+		EDC4D0391855299600763528 /* NSObject+PSChangeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PSChangeController.m"; sourceTree = "<group>"; };
+		EDC81A0B1857CE4100F850F3 /* PSSampleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSampleClass.h; sourceTree = "<group>"; };
+		EDC81A0C1857CE4100F850F3 /* PSSampleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSampleClass.m; sourceTree = "<group>"; };
+		EDCCC88B185540AE00CB3285 /* NSNotificationCenter+PSChangeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+PSChangeController.h"; sourceTree = "<group>"; };
+		EDCCC88C185540AE00CB3285 /* NSNotificationCenter+PSChangeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+PSChangeController.m"; sourceTree = "<group>"; };
+		EDE3FA6A18512FB7003BF42D /* PSChangeControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSChangeControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE3FA6D18512FB7003BF42D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDE3FA6F18512FB7003BF42D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDE3FA7118512FB7003BF42D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDE3FA7518512FB7003BF42D /* PSChangeControllerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PSChangeControllerExample-Info.plist"; sourceTree = "<group>"; };
+		EDE3FA7718512FB7003BF42D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDE3FA7918512FB7003BF42D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDE3FA7B18512FB7003BF42D /* PSChangeControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSChangeControllerExample-Prefix.pch"; sourceTree = "<group>"; };
+		EDE3FA7C18512FB7003BF42D /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		EDE3FA7D18512FB7003BF42D /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
+		EDE3FA7F18512FB7003BF42D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EDE3FA8118512FB7003BF42D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EDE3FA8318512FB7003BF42D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EDE3FA8618512FB7003BF42D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EDE3FA8818512FB7003BF42D /* PSChangeControllerExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSChangeControllerExampleViewController.h; sourceTree = "<group>"; };
+		EDE3FA8918512FB7003BF42D /* PSChangeControllerExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSChangeControllerExampleViewController.m; sourceTree = "<group>"; };
+		EDE3FA911851301E003BF42D /* PSChangeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSChangeController.h; sourceTree = "<group>"; };
+		EDE3FA921851301E003BF42D /* PSChangeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSChangeController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE3FA6718512FB7003BF42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE3FA6E18512FB7003BF42D /* UIKit.framework in Frameworks */,
+				EDE3FA7018512FB7003BF42D /* Foundation.framework in Frameworks */,
+				EDE3FA7218512FB7003BF42D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC4D0371855296600763528 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4D0381855299600763528 /* NSObject+PSChangeController.h */,
+				EDC4D0391855299600763528 /* NSObject+PSChangeController.m */,
+				EDCCC88B185540AE00CB3285 /* NSNotificationCenter+PSChangeController.h */,
+				EDCCC88C185540AE00CB3285 /* NSNotificationCenter+PSChangeController.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		EDE3FA6118512FB7003BF42D = {
+			isa = PBXGroup;
+			children = (
+				EDE3FA7318512FB7003BF42D /* PSChangeControllerExample */,
+				EDE3FA6C18512FB7003BF42D /* Frameworks */,
+				EDE3FA6B18512FB7003BF42D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE3FA6B18512FB7003BF42D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE3FA6A18512FB7003BF42D /* PSChangeControllerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE3FA6C18512FB7003BF42D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDE3FA6D18512FB7003BF42D /* UIKit.framework */,
+				EDE3FA6F18512FB7003BF42D /* Foundation.framework */,
+				EDE3FA7118512FB7003BF42D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDE3FA7318512FB7003BF42D /* PSChangeControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				EDE3FA9018512FC9003BF42D /* PSChangeController */,
+				EDE3FA7C18512FB7003BF42D /* PSAppDelegate.h */,
+				EDE3FA7D18512FB7003BF42D /* PSAppDelegate.m */,
+				EDE3FA8518512FB7003BF42D /* MainStoryboard.storyboard */,
+				EDE3FA8818512FB7003BF42D /* PSChangeControllerExampleViewController.h */,
+				EDE3FA8918512FB7003BF42D /* PSChangeControllerExampleViewController.m */,
+				EDE3FA7418512FB7003BF42D /* Supporting Files */,
+				EDC81A0B1857CE4100F850F3 /* PSSampleClass.h */,
+				EDC81A0C1857CE4100F850F3 /* PSSampleClass.m */,
+			);
+			path = PSChangeControllerExample;
+			sourceTree = "<group>";
+		};
+		EDE3FA7418512FB7003BF42D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDE3FA7518512FB7003BF42D /* PSChangeControllerExample-Info.plist */,
+				EDE3FA7618512FB7003BF42D /* InfoPlist.strings */,
+				EDE3FA7918512FB7003BF42D /* main.m */,
+				EDE3FA7B18512FB7003BF42D /* PSChangeControllerExample-Prefix.pch */,
+				EDE3FA7F18512FB7003BF42D /* Default.png */,
+				EDE3FA8118512FB7003BF42D /* Default@2x.png */,
+				EDE3FA8318512FB7003BF42D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDE3FA9018512FC9003BF42D /* PSChangeController */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4D0371855296600763528 /* Categories */,
+				EDE3FA911851301E003BF42D /* PSChangeController.h */,
+				EDE3FA921851301E003BF42D /* PSChangeController.m */,
+			);
+			name = PSChangeController;
+			path = ../PSChangeController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE3FA6918512FB7003BF42D /* PSChangeControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE3FA8D18512FB7003BF42D /* Build configuration list for PBXNativeTarget "PSChangeControllerExample" */;
+			buildPhases = (
+				EDE3FA6618512FB7003BF42D /* Sources */,
+				EDE3FA6718512FB7003BF42D /* Frameworks */,
+				EDE3FA6818512FB7003BF42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSChangeControllerExample;
+			productName = PSChangeControllerExample;
+			productReference = EDE3FA6A18512FB7003BF42D /* PSChangeControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE3FA6218512FB7003BF42D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Paweł Szymański";
+			};
+			buildConfigurationList = EDE3FA6518512FB7003BF42D /* Build configuration list for PBXProject "PSChangeControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDE3FA6118512FB7003BF42D;
+			productRefGroup = EDE3FA6B18512FB7003BF42D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE3FA6918512FB7003BF42D /* PSChangeControllerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE3FA6818512FB7003BF42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE3FA7818512FB7003BF42D /* InfoPlist.strings in Resources */,
+				EDE3FA8018512FB7003BF42D /* Default.png in Resources */,
+				EDE3FA8218512FB7003BF42D /* Default@2x.png in Resources */,
+				EDE3FA8418512FB7003BF42D /* Default-568h@2x.png in Resources */,
+				EDE3FA8718512FB7003BF42D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE3FA6618512FB7003BF42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE3FA7A18512FB7003BF42D /* main.m in Sources */,
+				EDE3FA7E18512FB7003BF42D /* PSAppDelegate.m in Sources */,
+				EDE3FA8A18512FB7003BF42D /* PSChangeControllerExampleViewController.m in Sources */,
+				EDE3FA931851301E003BF42D /* PSChangeController.m in Sources */,
+				EDC4D03A1855299600763528 /* NSObject+PSChangeController.m in Sources */,
+				EDCCC88D185540AE00CB3285 /* NSNotificationCenter+PSChangeController.m in Sources */,
+				EDC81A0D1857CE4100F850F3 /* PSSampleClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDE3FA7618512FB7003BF42D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE3FA7718512FB7003BF42D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDE3FA8518512FB7003BF42D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE3FA8618512FB7003BF42D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE3FA8B18512FB7003BF42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EDE3FA8C18512FB7003BF42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE3FA8E18512FB7003BF42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSChangeControllerExample/PSChangeControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "PSChangeControllerExample/PSChangeControllerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDE3FA8F18512FB7003BF42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSChangeControllerExample/PSChangeControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "PSChangeControllerExample/PSChangeControllerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE3FA6518512FB7003BF42D /* Build configuration list for PBXProject "PSChangeControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE3FA8B18512FB7003BF42D /* Debug */,
+				EDE3FA8C18512FB7003BF42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE3FA8D18512FB7003BF42D /* Build configuration list for PBXNativeTarget "PSChangeControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE3FA8E18512FB7003BF42D /* Debug */,
+				EDE3FA8F18512FB7003BF42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE3FA6218512FB7003BF42D /* Project object */;
+}
